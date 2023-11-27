@@ -17,7 +17,6 @@ nav a {
 .header_text {
     margin: auto;
     padding: 10px;
-
 }
 
 .header_text:hover {
@@ -70,7 +69,6 @@ div.gallery img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 div.gallery:hover {
@@ -100,6 +98,7 @@ div.gallery:hover {
     font-family: "Mountains of Christmas";
     font-size: 30px;
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
