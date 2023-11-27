@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Julee&family=Mountains+of+Christmas:wght@700&display=swap');
+
 /* ------------- HEADER ------------- */
 nav {
     position: relative;
@@ -15,6 +17,7 @@ nav a {
 .header_text {
     margin: auto;
     padding: 10px;
+
 }
 
 .header_text:hover {
@@ -27,14 +30,20 @@ nav a:hover {
 
 header {
     background-color: #8D0B12;
-    font-family: var();
+    font-family: "Mountains of Christmas";
     margin-bottom: 25px;
 }
 
 
 /* ------------- WISHLIST PAGE ------------- */
+.bg {
+    background-image: url(https://vectorforfree.com/wp-content/uploads/2019/12/Pattern_Christmas-_Tree_VectorForFree.png);
+    background-repeat: repeat;
+}
+
 #title {
     text-align: center;
+    font-family: "Mountains of Christmas";
 }
 
 div.centered {
@@ -52,6 +61,8 @@ div.gallery {
     align-items: center;
     position: relative;
     background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    transition: transform .5s;
 }
 
 div.gallery img {
@@ -59,13 +70,12 @@ div.gallery img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    transition: transform .5s;
+    
 }
 
 div.gallery:hover {
-    border: 5px solid #0F430F;
+    border: 5px solid darkred;
     transform: scale(1.1);
-    z-index: 10;
 }
 
 .overlay {
@@ -86,7 +96,8 @@ div.gallery:hover {
 }
 
 .text {
-    color: black;
+    color: darkgreen;
+    font-family: "Mountains of Christmas";
     font-size: 30px;
     position: absolute;
     top: 50%;
