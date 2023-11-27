@@ -39,6 +39,7 @@ header {
 
 div.centered {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -47,7 +48,6 @@ div.gallery {
     border: 5px solid black;
     float: left;
     width: 300px;
-    height: 300px;
     display: flex;
     align-items: center;
     position: relative;
@@ -55,7 +55,6 @@ div.gallery {
 }
 
 div.gallery img {
-    display: block;
     width: 100%;
     height: auto;
     margin-left: auto;
