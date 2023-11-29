@@ -43,19 +43,19 @@ header {
 #title {
     text-align: center;
     font-family: "Mountains of Christmas";
+    font-size: 40px;
 }
 
-div.centered {
+.centered {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-div.gallery {
-    margin: 10px;
+.container {
+    margin: 15px;
     border: 5px solid black;
-    float: left;
-    width: 300px;
+    max-width: 1000px;
     display: flex;
     align-items: center;
     position: relative;
@@ -64,14 +64,14 @@ div.gallery {
     transition: transform .5s;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
+.container img {
+    width: auto;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-div.gallery:hover {
+.container:hover {
     border: 5px solid darkred;
     transform: scale(1.1);
 }
@@ -89,7 +89,7 @@ div.gallery:hover {
     background-color: #F3F1F4;
 }
 
-.gallery:hover .overlay {
+.container:hover .overlay {
     opacity: .8;
 }
 
