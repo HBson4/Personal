@@ -125,47 +125,47 @@
                 </div>
 
                 <div class="container">
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/716V5nMCHSL._UF1000,1000_QL80_.jpg" alt="Skinny Dipping"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/51+VZSU31tL._UF1000,1000_QL80_.jpg" alt="Rise or Die Trying"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/A1atw8S0fGL._UF1000,1000_QL80_.jpg" alt="Four Year Strong"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/SWSLCTT.jpg" alt="Let's Cheers to This"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/91H4P0uYY9L._UF1000,1000_QL80_.jpg" alt="Seams & Stitches"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/91C8Fw8pttL._UF1000,1000_QL80_.jpg" alt="Around The World and Back"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/81TnwVoyXEL._UF1000,1000_QL80_.jpg" alt="Life's Not Out to Get You"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/91hk+NYRamL._UF1000,1000_QL80_.jpg" alt="Retrofit"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/91vHuBtUgjL._UF1000,1000_QL80_.jpg" alt="The Wilderness"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/81YKecqUNYL._UF1000,1000_QL80_.jpg" alt="Okay"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/61G5Eky769L._UF1000,1000_QL80_.jpg" alt="Overexposed"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://f4.bcbits.com/img/a0088489158_10.jpg" alt="Paradise"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/711tWyqMkzL._UF1000,1000_QL80_.jpg" alt="Identity Crisis"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/81DqfOX0YvL._UF1000,1000_QL80_.jpg" alt="Sunnyland"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/71+xUYcAi1L._UF1000,1000_QL80_.jpg" alt="What It Means to Fall Apart"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/612KY6EPUoL._UXNaN_FMjpg_QL85_.jpg" alt="Attack on Robot Pirate Island"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/91JgriEpATL._UF1000,1000_QL80_.jpg" alt="Steady Glow"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/71nQSRnGUhL._UF1000,1000_QL80_.jpg" alt="Pink Elephant"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/81q9rWYssKL._UF1000,1000_QL80_.jpg" alt="Gone Are The Good Days"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/6192h37lrHS._UXNaN_FMjpg_QL85_.jpg" alt="Roll With the Punches"></div>
-                    <div class="mySlides fade">
+                    <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/81psj3a40iL._UF1000,1000_QL80_.jpg" alt="Distance or Decay"></div>
                     <div class="overlay">
                         <div class="text">Album CD</div>
@@ -190,16 +190,16 @@
         showSlides();
         
         function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-        
-          slides[slideIndex-1].style.display = "flex";  
-          setTimeout(showSlides, 4000); // Change image every 4 seconds
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            
+            slides[slideIndex-1].style.display = "flex";  
+            setTimeout(showSlides, 5000); // Change image every 4 seconds
         }
     </script>
 
