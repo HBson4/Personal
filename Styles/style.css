@@ -93,7 +93,7 @@ header {
     opacity: .8;
 }
 
-.text {
+.overlay_text {
     color: darkgreen;
     font-family: "Mountains of Christmas";
     font-size: 30px;
@@ -112,7 +112,7 @@ header {
 
 @keyframes fadeInOut {
     0% {opacity: 0} 
-    10% {opacity: 1}
-    90% {opacity: 1}
+    8% {opacity: 1}
+    92% {opacity: 1}
     100% {opacity: 0}
 }
