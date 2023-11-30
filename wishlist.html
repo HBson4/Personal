@@ -168,7 +168,7 @@
                     <div class="mySlides fadeInOut">
                         <img src="https://m.media-amazon.com/images/I/81psj3a40iL._UF1000,1000_QL80_.jpg" alt="Distance or Decay"></div>
                     <div class="overlay">
-                        <div class="overlay_text">Album CD</div>
+                        <div class="overlay_text"></div>
                     </div>
                 </div>
             <!--
@@ -184,24 +184,6 @@
             </div>
         </main>
     </div>
-
-    <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}  
-            
-            slides[slideIndex-1].style.display = "flex";
-            setTimeout(showSlides, 5000); // Change image every 4 seconds
-        }
-    </script>
-
+    <script src="/personal.js"></script>
 </body>
 </html>
