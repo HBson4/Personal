@@ -119,3 +119,38 @@ header {
     92% {opacity: 1}
     100% {opacity: 0}
 }
+
+/* ------------- FOOTER ------------- */
+
+footer {
+    background-color: #8D0B12;
+    color: #F3F1F4;
+    padding: 10px 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.5em;
+    font-family: "Mountains of Christmas";
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Mountains of Christmas";
+}
+
+footer img {
+    border: 3px solid #8D0B12;
+}
+
+footer img:hover {
+    border: 3px solid #F3F1F4;
+}
+
+footer .social img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
