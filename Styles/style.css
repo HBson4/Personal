@@ -21,10 +21,13 @@ nav a {
 
 .header_text:hover {
     background-color: #0F430F;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 nav a:hover {
     color: #F3F1F4;
+    border-radius: 15px;
 }
 
 header {
