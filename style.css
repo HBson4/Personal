@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Julee&family=Mountains+of+Christmas:wght@700&family=Nova+Square&display=swap');
+
 nav {
     position: relative;
     display: flex;
@@ -6,9 +8,9 @@ nav {
 
 nav a {
     text-align: center;
-    color: black;
+    color: #30F2F2;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .header_text {
@@ -17,7 +19,7 @@ nav a {
 }
 
 .header_text:hover {
-    background-color: grey;
+    background-color: #115259;
     padding-top: 2px;
     padding-bottom: 2px;
 }
@@ -28,7 +30,11 @@ nav a:hover {
 }
 
 header {
-    background-color: lightgrey;
-    font-family: var();
+    background-color: #1B818C;
+    font-family: "Nova Square";
     margin-bottom: 25px;
+}
+
+body {
+    background-image: linear-gradient(to right, lightgrey, grey);
 }
