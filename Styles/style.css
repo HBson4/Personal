@@ -139,12 +139,13 @@ footer p {
     font-family: "Mountains of Christmas";
 }
 
-footer img {
+.social img {
     position: absolute;
     right: 20px;
     width: 70px;
+    transition: transform .5s;
 }
 
-footer img:hover {
+.social img:hover {
     transform: scale(1.1);
 }
