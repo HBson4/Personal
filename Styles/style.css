@@ -33,9 +33,8 @@ nav a:hover {
 header {
     background-color: #8D0B12;
     font-family: "Mountains of Christmas";
-    margin-bottom: 25px;
+    border-radius: 5px;
 }
-
 
 /* ------------- WISHLIST PAGE ------------- */
 .bg {
@@ -47,6 +46,9 @@ header {
     text-align: center;
     font-family: "Mountains of Christmas";
     font-size: 40px;
+    background-color: #0F430F;
+    color: #F3F1F4;
+    border-radius: 50px;
 }
 
 .centered {
@@ -128,29 +130,21 @@ footer {
     padding: 10px 15px;
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 70px;
+    vertical-align: middle;
 }
 
 footer p {
-    font-size: 1.5em;
-    font-family: "Mountains of Christmas";
-}
-
-footer a {
-    text-decoration: none;
+    font-size: 25px;
     font-family: "Mountains of Christmas";
 }
 
 footer img {
-    border: 3px solid #8D0B12;
+    position: absolute;
+    right: 20px;
+    width: 70px;
 }
 
 footer img:hover {
-    border: 3px solid #F3F1F4;
-}
-
-footer .social img {
-    margin-left: 10px;
-    margin-right: 10px;
+    transform: scale(1.1);
 }
