@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Julee&family=Mountains+of+Christmas:wght@700&family=Nova+Square&display=swap');
 
+/* ------------- HEADER ------------- */
 nav {
     position: relative;
     display: flex;
@@ -35,6 +36,7 @@ header {
     margin-bottom: 25px;
 }
 
+/* ------------- BODY ------------- */
 body {
     background-image: linear-gradient(to right, lightgrey, grey);
 }
