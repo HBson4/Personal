@@ -69,16 +69,23 @@ header {
     transition: transform .5s;
 }
 
+.container:hover {
+    border: 5px solid darkred;
+    transform: scale(1.1);
+}
+
 .container img {
     width: auto;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #F3F1F4;
+    transition: .5s ease;
 }
 
-.container:hover {
-    border: 5px solid darkred;
-    transform: scale(1.1);
+.container:hover img {
+    transition: .5s ease;
+    opacity: .3;
 }
 
 .overlay {
@@ -91,11 +98,10 @@ header {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #F3F1F4;
 }
 
 .container:hover .overlay {
-    opacity: .8;
+    opacity: 1;
 }
 
 .overlay_text {
