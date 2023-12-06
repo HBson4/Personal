@@ -151,6 +151,12 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
+    
+    #title {
+        font-size: 28px;
+        margin: 15px 10px;
+    }
+    
     .container {
         max-width: 250px;
     }
@@ -166,10 +172,5 @@ footer p {
 
     .social img {
         width: 15%
-    }
-
-    #title {
-        font-size: 35px;
-        margin: 15px 10px;
     }
 }
