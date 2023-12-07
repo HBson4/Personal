@@ -93,3 +93,7 @@ header {
 body {
     background-image: linear-gradient(to right, lightgrey, grey);
 }
+
+.bg {
+    background-image: url(./Images/blue_shards.jpg);
+}

@@ -191,6 +191,7 @@ footer {
     display: flex;
     height: 70px;
     vertical-align: middle;
+    border-radius: 15px;
 }
 
 footer p {
