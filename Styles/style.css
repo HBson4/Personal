@@ -185,17 +185,17 @@ header {
 footer {
     background-color: #8D0B12;
     color: #F3F1F4;
-    padding: 10px 15px;
     margin-top: 20px;
     display: flex;
     height: 70px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     border-radius: 15px;
 }
 
 footer p {
     font-size: 25px;
     font-family: "Mountains of Christmas";
+    margin: auto 25px;
 }
 
 .social img {
@@ -226,7 +226,7 @@ footer p {
     }
 
     footer p {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .social img {
