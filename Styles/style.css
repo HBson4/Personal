@@ -85,8 +85,12 @@ header {
 }
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
+/* .show {
     display:block;
+} */
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* ------------- BODY ------------- */
