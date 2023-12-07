@@ -67,7 +67,7 @@ header {
     background-color: #1B818C;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin: 0px 20px;
+    margin: 0px 25px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -95,5 +95,5 @@ body {
 }
 
 .bg {
-    background-image: url(./Images/blue_shards.jpg);
+    /* background-image: url(./Images/blue_shards.jpg); */
 }
