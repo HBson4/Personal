@@ -170,13 +170,13 @@ header {
 
 .fadeInOut {
     animation-name: fadeInOut;
-    animation-duration: 5s;
+    animation-duration: 4.25s;
 }
 
 @keyframes fadeInOut {
     0% {opacity: 0} 
-    8% {opacity: 1}
-    92% {opacity: 1}
+    15% {opacity: 1}
+    85% {opacity: 1}
     100% {opacity: 0}
 }
 
@@ -188,7 +188,6 @@ footer {
     margin-top: 20px;
     display: flex;
     height: 70px;
-    /* vertical-align: middle; */
     border-radius: 15px;
 }
 
@@ -196,17 +195,6 @@ footer p {
     font-size: 25px;
     font-family: "Mountains of Christmas";
     margin: auto 25px;
-}
-
-.social img {
-    position: absolute;
-    right: 20px;
-    width: 70px;
-    transition: transform .5s;
-}
-
-.social img:hover {
-    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 600px) {
@@ -227,9 +215,5 @@ footer p {
 
     footer p {
         font-size: 20px;
-    }
-
-    .social img {
-        width: 15%
     }
 }
