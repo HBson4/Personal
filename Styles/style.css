@@ -232,7 +232,7 @@ input[type=text] {
 }
   
 /* Set a style for all buttons */
-button {
+.btn {
     font-family: "Mountains of Christmas";
     font-size: 18px;
     background-color: darkgreen;
@@ -244,7 +244,7 @@ button {
     width: 100%;
 }
   
-button:hover {
+.btn:hover {
     opacity: 0.8;
 }
   

@@ -12,7 +12,7 @@
         <nav>
             <a class="header_text" href="./index.html">Home</a>
             <div class="dropdown">
-                <button onclick="dropdown()" class="dropbtn header_text">Wishlists</button>
+                <button class="dropbtn header_text">Wishlists</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a class="header_text" href="./wishlist.html">Hunter</a>
                     <a class="header_text" href="./momsList.html">Mom</a>
@@ -70,6 +70,30 @@
                         <div class="overlay_text">What's in the Bank Card Game</div>
                     </div>
                 </a>
+            </div>
+            <div class="addBtn">
+                <button class="add_overlay_text" onclick="document.getElementById('id01').style.display='block'">Add New Item</button>
+            </div>
+            <div id="id01" class="modal">
+                <!-- Modal Content -->
+                <form class="modal-content animate" action="/action_page.php" target="_blank">
+                    <div class="contain">
+                        <label for="imgAdd"><b>Image</b></label>
+                        <input type="text" placeholder="Image Address" name="imgAdd" required>
+                
+                        <label for="url"><b>Website</b></label>
+                        <input type="text" placeholder="Website URL" name="url" required>
+
+                        <label for="text"><b>Item Name</b></label>
+                        <input type="text" placeholder="Item Name" name="text" required>
+                
+                        <button type="submit" class="btn">Add Item</button>
+                    </div>
+                
+                    <div class="contain" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn">Cancel</button>
+                    </div>
+                </form>
             </div>
 
         
