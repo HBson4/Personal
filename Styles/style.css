@@ -117,13 +117,14 @@ header {
     align-items: center;
     position: relative;
     background-color: white;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px black;
     transition: transform .5s;
 }
 
 .container:hover {
     border: 5px solid darkred;
     transform: scale(1.1);
+    z-index: 10;
 }
 
 .container img {
@@ -209,7 +210,7 @@ header {
     border: 3px solid black;
     background: #F3F1F4;
     cursor: pointer;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px black;
     transition: transform .5s;
     align-items: center;
 }
