@@ -270,15 +270,16 @@ input[type=text] {
     height: 100%; /* Full height */
     overflow: none; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
 }
   
 .modal-content {
     font-family: "Mountains of Christmas";
     font-size: 22px;
     background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    margin: 4% auto 15% auto; /* 4% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
+    min-width: 400px;
     width: 30%; /* Could be more or less, depending on screen size */
 }
   
@@ -339,6 +340,10 @@ footer p {
     .container img {
         width: 250px;
         height: auto;
+    }
+
+    .modal-content {
+        width: 80%;
     }
 
     footer p {
